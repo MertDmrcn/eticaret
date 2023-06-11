@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Ayakkabı</title>
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<body>
+    <!--! Contact-left Start -->
+    <div class="api">
+        <div class="telefon">
+            <a href="tel:0500000000 " title="Telefon" alt="Telefon" class="nolink"><i class="fas fa-phone"></i></a>
+            <span class="tooltiptext">Telefon</span>
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=90500000000" target="_blank" class="nolink" title="WhatsApp"
+                alt="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <span class="tooltiptext">WhatsApp Hemen Sipariş Ver</span>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/" target="_blank" class="nolink" title="instagram" alt="instagram"><i
+                    class="fab fa-instagram"></i></a>
+            <span class="tooltiptext">İnstagram</span>
+        </div>
+    </div>
+
+    <!--! Contact-left End-->
+
+
+    <!-- ******************************************************************************** -->
+
+
+    <!--!Scrool-Top Button -->
+    <button onclick="scrollToTop()" class="scroll-to-top" id="scrollBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <!--!Scrool-Top Button -->
+    <div class="topbar bg-black text-white ">
+        <div class="container">
+            <div
+                class="d-flex justify-content-sm-center justify-content-md-between flex-column flex-md-row align-items-center">
+                <div class="d-flex flex-md-row flex-column align-items-center topbar-left">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="ms-1">
+                        <a href="magazalar.html">Mağazalar</a>
+                    </div>
+                    <div class="ms-3">
+                        <a href="kurumsal.html">Kurumsal</a>
+                    </div>
+
+                </div>
+                <div class="mx-auto">
+                    <p class="mx-auto" style="margin:0 !important;">Hergün Yepyeni İndirimler X Ayakkabı İle Seni
+                        Bekliyor !</p>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="ms-2">
+                        <a href="tel:0232 000 00 00">0232 000 00 00</a>
+                    </div>
+                    <div class="ms-4">
+                        <a href="siparis.html"><i class="fa-solid fa-question"></i></a>
+                    </div>
+                    <div class="ms-2">
+                        <a href="siparis.html">Sipariş Takibi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div>
+                <a href="index.html">
+                    <h3 class="mt-1">X-Ayakkabı</h3>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto text-uppercase mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Erkek
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="erkek.html">Bot</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Sneaker</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Günlük Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Sandalet</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Terlik</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Kadın
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="kadin.html">Bot</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Sneaker</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Günlük Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Sandalet</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Terlik</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Çocuk
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cocuk.html">Bot</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Sneaker</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Günlük Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Sandalet</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Terlik</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="aksesuar.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Aksesuar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="canta.html">Çanta</a></li>
+                            <li><a class="dropdown-item" href="aksesuar.html">Kemer</a></li>
+
+                            <li><a class="dropdown-item" href="aksesuar.html">Takı</a></li>
+                            <li><a class="dropdown-item" href="aksesuar.html">Tümünü Görüntüle</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-around">
+                    <div class="me-3">
+
+                        <div class="modal fade" id="exampleModal">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="me-3 d-flex ">
+                        <a href="giris.html"><i class="fas fa-user"></i></a>
+                        <a href="giris.html">
+                            <div class="ms-2 ">Giriş/Kaydol</div>
+                        </a>
+                    </div>
+                    <div class="me-2 d-flex baskett">
+                        <a href="sepet.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="sepet.html">
+                            <div class="ms-2 ">Sepetim</div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--! header end  -->
+
+    <!------------------------------------------------------------------------------------ -->
+
+    <!--! Slider Carousel Start -->
+    <div style="max-width: 1290px; max-height:650px;" id="carouselExampleIndicators" class="carousel slide mt-4 slider">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider.1.webp" class="d-block " alt="slider">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider.2.webp" class="d-block " alt="slider">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider.2.webp" class="d-block " alt="slider">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--! Slider Carousel End -->
+    <!------------------------------------------------------------------------------------ -->
+    <!--! Products Slider Start-->
+
+
+
+    <!--! Products Slider End-->
+    <!------------------------------------------------------------------------------------ -->
+
+
+    <!--! Category Box Start -->
+
+    <div class="container section2 animation  ">
+        <div class="col-lg-12 d-flex justify-content-center">
+            <h3 class="fw-bolder">- Her Yaştan Herkese İtap Eden Tarzlar -</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <div class="w-100 mt-4">
+                    <a href="cocuk.html"><img class="rounded" src=" img/c-ocuk-sneaker.jpg.webp" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="w-100 mt-4">
+                    <a href="aksesuar.html"><img class="rounded" src="img/erkek-aksesuar.jpg.webp" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="w-100 mt-4">
+                    <a href="erkek.html"><img class="rounded" src="img/erkek-sneaker.jpg.webp" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="w-100 mt-4">
+                    <a href="kadin.html"><img class="rounded" src="img/ag-tarz-1200x654.jpg.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------ -->
+    <!--! Category Box End-->
+
+
+    <!------------------------------------------------------------------------------------ -->
+    <!--! Products Start-->
+    <div class="d-flex justify-content-center mt-5 animation ">
+        <h3 class="fw-bolder section1">- Sizin İçin Seçtiklerimiz -</h3>
+    </div>
+
+    <div class="container mt-2 animation ">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card h-100 animation1 ">
+                    <div class="img-class">
+                        <img src="img/ayakkabı1.webp" class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card h-100 animation2 ">
+                    <div class="img-class">
+                        <img src="https://img.segmentify.com/s/fit-in/img-ayakkabidunyasi.mncdn.com/mnresize/400/400/Content/Images/Originals/0146148_0.jpeg"
+                            class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card h-100 animation3 ">
+                    <div class="img-class">
+                        <img src="https://img-ayakkabidunyasi.mncdn.com/mnresize/400/400/Content/Images/Originals/0138121_0.jpeg"
+                            class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card h-100 animation4 ">
+                    <div class="img-class">
+                        <img src="https://img-ayakkabidunyasi.mncdn.com/mnresize/400/400/Content/Images/Originals/0157110_0.jpeg"
+                            class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 my-5">
+                <div class="card h-100 ">
+                    <div class="img-class">
+                        <img src="https://img-ayakkabidunyasi.mncdn.com/mnresize/400/400/Content/Images/Originals/0127881_0.jpeg"
+                            class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 my-5">
+                <div class="card h-100 ">
+                    <div class="img-class">
+                        <img src="img/ayakkabı1.webp" class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 my-5">
+                <div class="card h-100 ">
+                    <div class="img-class">
+                        <img src="https://img.segmentify.com/s/fit-in/img-ayakkabidunyasi.mncdn.com/mnresize/400/400/Content/Images/Originals/0154307_0.jpeg"
+                            class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 my-5 ">
+                <div class="card h-100 ">
+                    <div class="img-class">
+                        <img src="https://img-ayakkabidunyasi.mncdn.com/mnresize/400/400/Content/Images/Originals/0128838_0.jpeg"
+                            class="card-img-top" alt="ayakkabı">
+                        <i id="like" class="fa-regular fa-heart like"></i>
+                        <i id="sepetekle" class="fa-sharp fa-solid fa-basket-shopping"></i>
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Ayakkabı <p class="text-muted fs-6">Q32132 Model</p>
+                        </h5>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-text">En Rahat, En Kaliteli Adidas Ayakkabı</p>
+                        <p class="card-price"><span class=" fs-3 text-success fw-bolder ">55 ₺</span></p>
+                        <div class="d-flex justify-content-center mt-2">
+                            <a href="#" class="btn btn-outline-success sepet ">Sepete Ekle</a>
+                            <a href="#" class="btn btn-outline-success satınal  mx-4">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="erkek.html" class="btn btn-outline-dark sepet w-25">Tümünü Görüntüle</a>
+    </div>
+
+
+
+    <!--! Products End -->
+
+    <!--! Category Start-->
+    <div class="mt-5 animation  ">
+        <div class="container d-flex justify-content-center mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="fw-bolder section3">- Dünyanın En İyi Markaları X Ayakkabı İle Sizlerle -</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container d-flex justify-content-center mt-2 animation">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <div class="card">
+                    <a href="kadin.html"><img
+                            src="https://img-ayakkabidunyasi.mncdn.com/Content/Images/Thumbs/0157312.jpeg"
+                            class="card-img-top"></a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <div class="card">
+                    <a href="kadin.html"><img
+                            src="https://img-ayakkabidunyasi.mncdn.com/Content/Images/Thumbs/0157314.jpeg"
+                            class="card-img-top"></a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <div class="card mt-3">
+                    <a href="kadin.html"><img
+                            src="https://img-ayakkabidunyasi.mncdn.com/Content/Images/Thumbs/0157573.jpeg"
+                            class="card-img-top"></a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <div class="card mt-3">
+                    <a href="kadin.html"><img
+                            src="https://img-ayakkabidunyasi.mncdn.com/Content/Images/Thumbs/0157572.jpeg"
+                            class="card-img-top"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--! Category End-->
+    <!------------------------------------------------------------------------------------ -->
+
+    <!------------------------------------------------------------------------------------ -->
+    <!--! Contact-Box Start-->
+
+    <div class="container-fluid d-flex justify-content-center mt-5 bg-dark text-white  animation  ">
+        <div class="container section4  ">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12   ">
+                    <div class="mt-5 py-3 mb-5 ">
+                        <h3 class="mt-5">X Ayakkabı Yaza Özel Fırsatlardan En Önce Haberdar Ol</h3>
+                        <p class="mt-4">İndirimlerden Anında Haberdar Olmak İçin Bizlere</p>
+                        <div class="input-group mb-3 w-75 mt-4">
+                            <input type="text" class="form-control " placeholder="E-Posta Adresinizi Yazınız"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-success" type="button" id="button-addon2">Gönder</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12  ">
+
+                    <div class="d-flex col-lg-6 col-sm-12 mb-5 mt-5 w-100 ">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6250.239112251377!2d27.138269047338706!3d38.438707340935295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd8437c357ec5%3A0x6888684b400dfbd4!2sAlsancak%2C%2035220%20Konak%2F%C4%B0zmir!5e0!3m2!1str!2str!4v1683927971391!5m2!1str!2str"
+                            width="100%" height="350" style="border: 10px;;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--! Contact-Box End-->
+
+    <!--! SSS Accordioon Start  -->
+    <div class="section1">
+        <h3 class="text-center fw-bolder">- Sıkça Sorulan Sorular -</h3>
+    </div>
+    <div class="container mt-5 ">
+        <div class="accordion " id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h5>Nasıl sipariş oluşturabilirim?</h5>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        <p>
+                            Siparişiniz kargoya verildikten sonra siparişinizin kargo aşamalarını "Hesabım" bölümünde
+                            Siparişlerim sekmesinde bulunan “Kargo Takip" başlığından takip edebilirsiniz. <br>
+
+                            Üye değilseniz; Sipariş Takibi bölümünden sipariş ve cep telefonu numaranızı girerek sipariş
+                            sekmesinde bulunan “Kargo Takip" bölümünden takip edebilirsiniz.<br>
+
+                            Siparişinizi tamamlandıktan sonra aşağıdaki bilgilendirme mesajlarını alırsınız ;<br>
+
+                            1. Ödeme tamamlanınca “Siparişiniz alınmıştır” başlıklı bir bilgilendirme mesajı ,<br>
+
+                            2. Siparişiniz kargoya teslim edildiğinde “Siparişiniz kargoya verildi” başlıklı
+                            bilgilendirme mesajı ile kargo firmasından da bilgi mesajı tarafınıza ulaşacaktır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h5>Siparişimi nasıl takip edebilirim?</h5>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        <p>
+                            Aşağıdaki adımları izleyerek kolayca sipariş oluşturabilirsiniz: <br>
+
+                            1- Satın almak istediğiniz ürünü ve size uygun olacağını düşündüğünüz doğru bedeni seçerek
+                            "Sepete Ekle" butonuna tıklayın (Beden seçimi için 'Beden Tablosu' bölümümüzden
+                            yararlanabilirsiniz.).<br>
+
+                            2- Sepete ekleme işleminden sonra açılan ekrandan alışverişinize devam edebilir ya da
+                            siparişinizi tamamlamak için "Sepete Git" butonuna tıklayabilirsiniz.<br>
+
+                            3- Siparişlerinizde kullanabileceğiniz indirim kuponunuz varsa "Kampanya Kodu / Kupon"
+                            alanına yazarak "Uygula" butonuna basın. Sonraki adıma geçmek için "Sepeti Onayla" butonuna
+                            basın.<br>
+
+                            4- Teslimat Seçenekleri alanında tercih ettiğiniz teslimat adresini seçtikten sonra ödeme
+                            adımına geçebilirsiniz.<br>
+
+                            5- Tercih ettiğiniz ödeme yöntemini seçin ve gerekli bilgileri doldurun.<br>
+
+                            6- "ÖDEMEYİ TAMAMLA" butonuna tıklayın, siparişiniz oluşturuldu!<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h5>Mağazadan oluşturduğum siparişimi nasıl takip edebilirim?</h5>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        <p>
+                            Siparişinizi tamamlandıktan sonra aşağıdaki bilgilendirme mesajlarını alırsınız ; <br>
+
+                            1. Ödeme tamamlanınca “Siparişiniz alınmıştır” başlıklı bir bilgilendirme mesajı ,<br>
+
+                            2. Siparişiniz kargoya teslim edildiğinde “Siparişiniz kargoya verildi” başlıklı
+                            bilgilendirme mesajı ile kargo firmasından da bilgi mesajı tarafınıza ulaşacaktır.<br>
+
+                            Tarafınıza iletilen kargo takip linkinden siparişinizin kargo hareketlerini
+                            görüntüleyebilirsiniz.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h5>İndirim kuponumu/kodumu nasıl kullanabilirim?</h5>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                        <p>
+                            Hesabınıza yüklediğimiz ya da gönderdiğimiz indirim kuponları sadece FLO ürün/leri için
+                            geçerlidir. Diğer satıcı firmalara ait ürün/ler için özel bir kampanya yok ise FLO
+                            tarafından gönderilen kupon kodları kullanılamamaktadır. <br>
+
+                            Aşağıdaki adımları izleyerek kupon kodunuzu kullanabilirsiniz.<br>
+
+                            1. Ürünü sepete ekleyin.<br>
+
+                            2. Sepeti Onayla “Kampanya Kodu / Kupon” alanına gidin.<br>
+
+                            * Kuponunuz varsa ""Kampanya Kodu / Kupon" ifadesinin yanındaki " + " simgesine tıklayarak
+                            kayıtlı kupon/lardan seçin ve “Uygula” butonuna basın.<br>
+
+                            * Kodunuz varsa kodu bu alana yazın ve “Uygula” butonuna basın.<br>
+
+                            Kampanya detaylarına "Kampanyalarımız" sayfasından ulaşabilirsiniz.<br>
+
+                            İPUCU:<br>
+
+                            1. Bir siparişte en fazla 1 adet indirim kuponu veya kodu kullanılabilir.<br>
+
+                            2. Bazı kampanyalarımızda seçili markalarda kupon veya kod kullanılamamaktadır.<br>
+
+                            3. Sepette ekstra indirim olan kampanyalı ürünlerde, kupon kullanmayı tercih etmeniz
+                            durumunda ürüne ait kampanyalar iptal olur ve ürün fiyatından sadece kupon tutarı düşülür.
+                            Ürün kampanyaları ve kupon aynı anda kullanılamamaktadır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--! SSS Accordioon End -->
+
+
+    <!------------------------------------------------------------------------------------ -->
+    <!--! Footer Start-->
+
+    <footer class="mt-5 text-white section5 ">
+        <div class="container-fluid py-4 bg-primary section5 ">
+            <div class="row gy-4 ">
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="mx-auto h1 text-white">X-Ayakkabı</h5>
+                    <p class="small text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt.</p>
+                    <p class="small text-white mb-0">&copy; X-Ayakkabı Tüm Hakları Saklıdır. <a class="text-primary"
+                            href="#">Bootstrapious.com</a></p>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Kurumsal</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Anasayfa</a></li>
+                        <li><a href="#">Kurumsal</a></li>
+                        <li><a href="#">Sipariş Takibi</a></li>
+                        <li><a href="#">Giriş/Kaydol</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Erkek</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Bot</a></li>
+                        <li><a href="#">Ayakkabı</a></li>
+                        <li><a href="#">Sneaker</a></li>
+                        <li><a href="#">Günlük Ayakkabı</a></li>
+                        <li><a href="#">Sandalet</a></li>
+                        <li><a href="#">Terlik</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Kadın</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Bot</a></li>
+                        <li><a href="#">Ayakkabı</a></li>
+                        <li><a href="#">Sneaker</a></li>
+                        <li><a href="#">Günlük Ayakkabı</a></li>
+                        <li><a href="#">Sandalet</a></li>
+                        <li><a href="#">Terlik</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Çocuk</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Bot</a></li>
+                        <li><a href="#">Ayakkabı</a></li>
+                        <li><a href="#">Sneaker</a></li>
+                        <li><a href="#">Günlük Ayakkabı</a></li>
+                        <li><a href="#">Sandalet</a></li>
+                        <li><a href="#">Terlik</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Aksesuar</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#">Çanta</a></li>
+                        <li><a href="#">Kemer</a></li>
+                        <li><a href="#">Takı</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Bültene Abone Ol</h5>
+                    <p class="small">Bültene Abone ol ve İndirimlerden En Önce Haberdar ol.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="E Posta Adresinizi Yazınız."
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-black bg-success" id="button-addon2" type="button"><i
+                                    class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--! Footer End-->
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!-- ScrollReveal -->
+    <script>
+        ScrollReveal().reveal('.animation', { delay: 200 });
+        ScrollReveal().reveal('.animation1', { delay: 300 });
+        ScrollReveal().reveal('.animation2', { delay: 400 });
+        ScrollReveal().reveal('.animation3', { delay: 500 });
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
