@@ -1,0 +1,510 @@
+<!--! header start  -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erkek Ayakkabıları</title>
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+</head>
+
+
+<body>
+    <!--! Contact-left Start -->
+    <div class="api">
+        <div class="telefon">
+            <a href="tel:0500000000 " title="Telefon" alt="Telefon" class="nolink"><i class="fas fa-phone"></i></a>
+            <span class="tooltiptext">Telefon</span>
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=90500000000" target="_blank" class="nolink" title="WhatsApp"
+                alt="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <span class="tooltiptext">WhatsApp Hemen Sipariş Ver</span>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/" target="_blank" class="nolink" title="instagram" alt="instagram"><i
+                    class="fab fa-instagram"></i></a>
+            <span class="tooltiptext">İnstagram</span>
+        </div>
+    </div>
+    <style>
+        .api {
+            position: fixed;
+            bottom: 80px;
+            left: 1800px;
+            z-index: 99999;
+        }
+
+        .telefon {
+            position: relative;
+            margin-top: 10px;
+            transition: all .5s ease-in-out;
+            z-index: 999;
+        }
+
+        .telefon a {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            font-size: 28px;
+            display: block;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            background: #337ab7;
+        }
+
+        .telefon .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            line-height: normal;
+            font-size: 15px;
+            top: 13px;
+            right: 105%;
+            height: auto;
+        }
+
+        .telefon:hover a {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .telefon:hover .tooltiptext {
+            visibility: visible;
+        }
+
+        .whatsapp {
+            position: relative;
+            transition: all .5s ease-in-out;
+            z-index: 999;
+            margin-top: 10px;
+        }
+
+        .whatsapp a {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            font-size: 28px;
+            display: block;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            background: #4dc247;
+        }
+
+        .whatsapp .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            line-height: normal;
+            font-size: 15px;
+            top: 13px;
+            right: 105%;
+            height: auto;
+        }
+
+        .whatsapp:hover a {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .whatsapp:hover .tooltiptext {
+            visibility: visible;
+        }
+
+
+
+        .instagram {
+            position: relative;
+            margin-top: 10px;
+            transition: all .5s ease-in-out;
+            z-index: 999;
+        }
+
+        .instagram a {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            font-size: 28px;
+            display: block;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            background: #fd3a67;
+        }
+
+        .instagram .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black !important;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            line-height: normal;
+            font-size: 15px;
+            top: 13px;
+            right: 105%;
+            height: auto;
+        }
+
+        .instagram:hover a {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .instagram:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+
+
+
+    <!--! Contact-left End-->
+    <!--!Scrool-Top Button -->
+    <button onclick="scrollToTop()" class="scroll-to-top" id="scrollBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <!--!Scrool-Top Button -->
+    <div class="topbar bg-black text-white">
+        <div class="container">
+            <div
+                class="d-flex justify-content-sm-center justify-content-md-between flex-column flex-md-row align-items-center">
+                <div class="d-flex flex-md-row flex-column align-items-center topbar-left">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="ms-1">
+                        <a href="magazalar.html">Mağazalar</a>
+                    </div>
+                    <div class="ms-3">
+                        <a href="kurumsal.html">Kurumsal</a>
+                    </div>
+
+                </div>
+                <div class="mx-auto">
+                    <p class="mx-auto" style="margin:0 !important;">Hergün Yepyeni İndirimler X Ayakkabı İle Seni
+                        Bekliyor !</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="ms-2">
+                        <a href="tel:0232 000 00 00">0232 000 00 00</a>
+                    </div>
+                    <div class="ms-4">
+                        <a href="siparis.html"><i class="fa-solid fa-question"></i></a>
+                    </div>
+                    <div class="ms-2">
+                        <a href="siparis.html">Sipariş Takibi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div>
+                <a href="index.html">
+                    <h3 class="mt-1">X-Ayakkabı</h3>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto text-uppercase mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="erkek.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Erkek
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="erkek.html">Bot</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Sneaker</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Günlük Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Sandalet</a></li>
+                            <li><a class="dropdown-item" href="erkek.html">Terlik</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="kadin.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Kadın
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="kadin.html">Bot</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Sneaker</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Günlük Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Sandalet</a></li>
+                            <li><a class="dropdown-item" href="kadin.html">Terlik</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="cocuk.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Çocuk
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cocuk.html">Bot</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Sneaker</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Günlük Ayakkabı</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Sandalet</a></li>
+                            <li><a class="dropdown-item" href="cocuk.html">Terlik</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="aksesuar.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aksesuar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aksesuar.html">Çanta</a></li>
+                            <li><a class="dropdown-item" href="aksesuar.html">Kemer</a></li>
+
+                            <li><a class="dropdown-item" href="aksesuar.html">Takı</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-around">
+                    <div class="me-3">
+                        <!-- <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fas fa-search"></i>
+                            <div class="d-flex justify-content-center">Ürün Arama</div>
+                        </button> -->
+
+
+                        <div class="modal fade" id="exampleModal">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="me-3 d-flex ">
+                        <a href="giris.html"><i class="fas fa-user"></i></a>
+                        <a href="giris.html">
+                            <div class="ms-2 ">Giriş/Kaydol</div>
+                        </a>
+                    </div>
+                    <div class="me-2 d-flex baskett">
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="#">
+                            <div class="ms-2 ">Sepetim</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!--! header end  -->
+
+
+    <!--! Login Screen Start  -->
+    <div id="logreg-forms">
+        <form class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Giriş Yap</h1>
+            <div class="social-login">
+                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i>
+                        Facebook İle Giriş Yap</span> </button>
+                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i>
+                        Google İle Giriş Yap</span> </button>
+            </div>
+            <p style="text-align:center"> Yada </p>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email Adresinizi Yazınız." required=""
+                autofocus="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Şifrenizi Yazınız" required="">
+
+            <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Giriş
+                Yap</button>
+            <a href="" id="forgot_pswd">Şifrenimi Unuttun?</a>
+            <hr>
+            <!-- <p>Don't have an account!</p>  -->
+            <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>
+                Kaydolmak İçin Tıklayın</button>
+        </form>
+
+        <form action="/reset/password/" class="form-reset">
+            <input type="email" id="resetEmail" class="form-control" placeholder="Kayıtlı Email Adresinizi Yazınız"
+                required="" autofocus="">
+            <button class="btn btn-primary btn-block" type="submit">Şifreyi Yenileme Bağlantısı Al</button>
+            <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i>Geriye Dön</a>
+        </form>
+
+        <form action="/signup/" class="form-signup">
+            <div class="social-login">
+                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i>
+                        Facebook İle Giriş İçin Tıklayın</span> </button>
+            </div>
+            <div class="social-login">
+                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i>
+                        Google İle Giriş İçin Tıklayın</span> </button>
+            </div>
+
+            <p style="text-align:center">Ya da</p>
+
+            <input type="text" id="user-name" class="form-control" placeholder="Adınız" required="" autofocus="">
+            <input type="email" id="user-email" class="form-control" placeholder="Soyadınız" required autofocus="">
+            <input type="password" id="user-pass" class="form-control" placeholder="Şifreniz" required autofocus="">
+            <input type="password" id="user-repeatpass" class="form-control" placeholder="Şifrenizi Tekrar Giriniz"
+                required autofocus="">
+
+            <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Kayıt Ol</button>
+            <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Geriye Dön</a>
+        </form>
+        <br>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+    <!--! Login Screen End -->
+
+    <!--! Footer Start-->
+
+    <footer class="mt-5 text-white  w-100 h-100">
+        <div class="container-fluid py-4 bg-primary">
+            <div class="row gy-4 ">
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="mx-auto h1 text-white">X-Ayakkabı</h5>
+                    <p class="small text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt.</p>
+                    <p class="small text-white mb-0">&copy; X-Ayakkabı Tüm Hakları Saklıdır. <a class="text-primary"
+                            href="#">Bootstrapious.com</a></p>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Kurumsal</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="#">Kurumsal</a></li>
+                        <li><a href="#">Sipariş Takibi</a></li>
+                        <li><a href="#">Giriş/Kaydol</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Erkek</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="erkek.html">Bot</a></li>
+                        <li><a href="erkek.html">Ayakkabı</a></li>
+                        <li><a href="erkek.html">Sneaker</a></li>
+                        <li><a href="erkek.html">Günlük Ayakkabı</a></li>
+                        <li><a href="erkek.html">Sandalet</a></li>
+                        <li><a href="erkek.html">Terlik</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Kadın</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Bot</a></li>
+                        <li><a href="#">Ayakkabı</a></li>
+                        <li><a href="#">Sneaker</a></li>
+                        <li><a href="#">Günlük Ayakkabı</a></li>
+                        <li><a href="#">Sandalet</a></li>
+                        <li><a href="#">Terlik</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Çocuk</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Bot</a></li>
+                        <li><a href="#">Ayakkabı</a></li>
+                        <li><a href="#">Sneaker</a></li>
+                        <li><a href="#">Günlük Ayakkabı</a></li>
+                        <li><a href="#">Sandalet</a></li>
+                        <li><a href="#">Terlik</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6">
+                    <h5 class="text-white mb-3">Aksesuar</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#">Çanta</a></li>
+                        <li><a href="#">Kemer</a></li>
+                        <li><a href="#">Takı</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Bültene Abone Ol</h5>
+                    <p class="small">Bültene Abone ol ve İndirimlerden En Önce Haberdar ol.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="E Posta Adresinizi Yazınız."
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-black bg-success" id="button-addon2" type="button"><i
+                                    class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--! Footer End-->
+</body>
